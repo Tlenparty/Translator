@@ -3,7 +3,6 @@ package com.tlenparty.translator.ui.history
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.tlenparty.translator.R
@@ -20,8 +19,8 @@ class HistoryActivity : BaseActivity<AppState>() {
     private val binding by lazy { AcHistoryBinding.inflate(layoutInflater) }
     private val adapter by lazy { HistoryAdapter() }
 
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         setContentView(binding.root)
         binding.recyclerviewHistory.layoutManager = LinearLayoutManager(this)
         binding.recyclerviewHistory.adapter = adapter
