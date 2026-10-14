@@ -25,7 +25,7 @@
             android:layout_marginTop="16dp"
             tools:text="Header" />
 
-        <com.geekbrains.geekbrainsdictionary.ui.views.EqualSizeImageView
+        <com.tlenparty.translator.ui.views.EqualSizeImageView
             android:id="@+id/description_imageview"
             android:layout_width="match_parent"
             android:layout_height="200dp"
