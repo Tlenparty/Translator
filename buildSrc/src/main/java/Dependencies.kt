@@ -18,7 +18,7 @@ object Versions {
     const val swipeRefreshLayout = "1.1.0"
     const val coroutines = "1.5.0"
     const val koin = "3.1.2"
-    const val room = "2.3.0"
+    const val room = "2.4.3"
 }
 
 object Retrofit {
